@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "kaqchikel-language",
-      "source": "./plugins/kaqchikel-language",
+      "source": "./",
       "description": "Read, write, translate and gloss Kaqchikel Maya (ISO cak)."
     }
   ]

@@ -17,11 +17,17 @@ needs them.
 /plugin install kaqchikel-language@kaqchikel-maya
 ```
 
-Or drop it in by hand, no plugin machinery required:
+Or with the skills CLI:
+
+```
+npx skills add danbednarski/kaqchikel-maya
+```
+
+Or drop it in by hand, no tooling at all:
 
 ```
 git clone https://github.com/danbednarski/kaqchikel-maya
-cp -r kaqchikel-maya/plugins/kaqchikel-language/skills/kaqchikel-language ~/.claude/skills/
+cp -r kaqchikel-maya/skills/kaqchikel-language ~/.claude/skills/
 ```
 
 It works anywhere skills work: Claude Code, the Claude apps, and the API.
