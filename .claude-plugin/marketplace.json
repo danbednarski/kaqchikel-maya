@@ -1,0 +1,14 @@
+{
+  "name": "kaqchikel-maya",
+  "owner": {
+    "name": "Dan Bednarski",
+    "url": "https://github.com/danbednarski"
+  },
+  "plugins": [
+    {
+      "name": "kaqchikel-language",
+      "source": "./plugins/kaqchikel-language",
+      "description": "Read, write, translate and gloss Kaqchikel Maya (ISO cak)."
+    }
+  ]
+}

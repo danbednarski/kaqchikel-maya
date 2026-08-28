@@ -1,0 +1,24 @@
+{
+  "name": "kaqchikel-language",
+  "displayName": "Kaqchikel Maya",
+  "version": "1.0.0",
+  "description": "A dense working reference for Kaqchikel Maya: core grammar, full paradigms, domain vocabulary, idioms, and 1,300 verified example sentences.",
+  "author": {
+    "name": "Dan Bednarski",
+    "url": "https://github.com/danbednarski"
+  },
+  "repository": "https://github.com/danbednarski/kaqchikel-maya",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "kaqchikel",
+    "maya",
+    "mayan",
+    "cakchiquel",
+    "guatemala",
+    "language",
+    "linguistics",
+    "translation",
+    "endangered-languages",
+    "cak"
+  ]
+}
