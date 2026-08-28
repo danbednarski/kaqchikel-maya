@@ -1,3 +1,5 @@
+[![skills.sh](https://skills.sh/b/danbednarski/kaqchikel-maya)](https://www.skills.sh/danbednarski/kaqchikel-maya)
+
 # Kaqchikel Maya, as a Claude skill
 
 Kaqchikel is a K'iche'an Mayan language of the Guatemalan highlands, spoken by roughly half a
