@@ -1,8 +1,8 @@
 {
   "name": "kaqchikel-language",
   "displayName": "Kaqchikel Maya",
-  "version": "1.0.0",
-  "description": "A dense working reference for Kaqchikel Maya: core grammar, full paradigms, domain vocabulary, idioms, and 1,300 verified example sentences.",
+  "version": "2.0.0",
+  "description": "Write, translate, gloss and check Kaqchikel Maya (ISO cak) in English or Spanish: the errors models make, a source-counted trilingual lexicon, full paradigms, attested example sentences and dialect variation across seven regions.",
   "author": {
     "name": "Dan Bednarski",
     "url": "https://github.com/danbednarski"
@@ -19,6 +19,8 @@
     "linguistics",
     "translation",
     "endangered-languages",
-    "cak"
+    "cak",
+    "spanish",
+    "dialects"
   ]
 }

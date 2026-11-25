@@ -1,0 +1,312 @@
+[
+ {
+  "id": "tired",
+  "prompt": "Translate to Kaqchikel: \"I am tired.\" Give just the sentence.",
+  "must": [
+   "\\bin kosnäq"
+  ],
+  "must_not": [
+   "\\byin kosn",
+   "\\brin kosn"
+  ]
+ },
+ {
+  "id": "went-1s",
+  "prompt": "Conjugate -b'e \"go\" in the completive for all six persons. Forms only.",
+  "must": [
+   "xib'e",
+   "xab'e",
+   "xojb'e",
+   "xixb'e",
+   "xeb'e"
+  ],
+  "must_not": [
+   "xinb'e"
+  ]
+ },
+ {
+  "id": "will-go",
+  "prompt": "Translate: \"I will go to Antigua tomorrow.\"",
+  "must": [
+   "xkib'e"
+  ],
+  "must_not": [
+   "xkinb'e",
+   "xtinb'e"
+  ]
+ },
+ {
+  "id": "my-house",
+  "prompt": "How do you say \"my house\" in Kaqchikel?",
+  "must": [
+   "wochoch"
+  ],
+  "must_not": [
+   "nuchoch"
+  ]
+ },
+ {
+  "id": "forty-hundred",
+  "prompt": "Write 40 and 100 in Kaqchikel numerals (words).",
+  "must": [
+   "kak'al",
+   "wok'al"
+  ],
+  "must_not": [
+   "ka'k'al",
+   "o'k'al"
+  ]
+ },
+ {
+  "id": "days",
+  "prompt": "List the twenty day names of the Kaqchikel cholq'ij.",
+  "must": [
+   "\\bey\\b",
+   "kamey"
+  ],
+  "must_not": [
+   "\\bkame\\b"
+  ]
+ },
+ {
+  "id": "afternoon",
+  "prompt": "How do you say \"good afternoon\" in Kaqchikel?",
+  "must": [
+   "xqa q'ij"
+  ],
+  "must_not": [
+   "xq'ij",
+   "xb'eqij"
+  ]
+ },
+ {
+  "id": "sister-man",
+  "prompt": "How does a man say \"my sister\" in Kaqchikel?",
+  "must": [
+   "wana'"
+  ],
+  "must_not": [
+   "wanab'"
+  ]
+ },
+ {
+  "id": "tortilla",
+  "prompt": "Translate: \"We will buy tortillas tomorrow.\"",
+  "must": [
+   "wäy"
+  ],
+  "must_not": [
+   "\\bwa' "
+  ]
+ },
+ {
+  "id": "know-weave",
+  "prompt": "Translate: \"I know how to weave.\"",
+  "must": [
+   "wetaman yikemon"
+  ],
+  "must_not": [
+   "wetaman nikemon"
+  ]
+ },
+ {
+  "id": "speak",
+  "prompt": "Translate: \"Can you speak Kaqchikel?\"",
+  "must": [
+   "yach'o'n|yatikir"
+  ],
+  "must_not": [
+   "nach'o'\\b"
+  ]
+ },
+ {
+  "id": "want-go",
+  "prompt": "Translate: \"I want to go.\"",
+  "must": [
+   "ninwajo' yib'e"
+  ],
+  "must_not": [
+   "ninwajo' nib'e"
+  ]
+ },
+ {
+  "id": "seated",
+  "prompt": "Translate: \"The child is sitting.\"",
+  "must": [
+   "tz'uyül"
+  ],
+  "must_not": [
+   "tz'uyul\\b"
+  ]
+ },
+ {
+  "id": "green",
+  "prompt": "What is the Kaqchikel word for green/blue?",
+  "must": [
+   "räx"
+  ],
+  "must_not": [
+   "rëx"
+  ]
+ },
+ {
+  "id": "greeting",
+  "prompt": "Write: \"How are you? Fine, thanks, and you?\" in Kaqchikel.",
+  "must": [
+   "¿?la ütz awäch"
+  ],
+  "must_not": [
+   "la utz aw"
+  ]
+ },
+ {
+  "id": "passive-root",
+  "prompt": "Translate: \"The blouse was woven.\" (passive)",
+  "must": [
+   "xkem\\b"
+  ],
+  "must_not": [
+   "xkemäx"
+  ]
+ },
+ {
+  "id": "from-place",
+  "prompt": "Translate: \"I am from Antigua.\" (Antigua = Pan Q'än)",
+  "must": [
+   "in aj pan q'än"
+  ],
+  "must_not": [
+   "richin pan"
+  ]
+ },
+ {
+  "id": "child-still",
+  "prompt": "Translate: \"I am still a child.\"",
+  "must": [
+   "in ak'wal"
+  ],
+  "must_not": [
+   "yin ak'wal",
+   "rin ak'wal na"
+  ]
+ },
+ {
+  "id": "seen-perfect",
+  "prompt": "Translate: \"I have already seen it.\"",
+  "must": [
+   "nutz'eton|xinwïl|xintz'ët"
+  ],
+  "must_not": [
+   "xwïl yan"
+  ]
+ },
+ {
+  "id": "plural-person",
+  "prompt": "What is the plural of winäq?",
+  "must": [
+   "winaqi'"
+  ],
+  "must_not": []
+ },
+ {
+  "id": "price",
+  "prompt": "At the market, how do I ask \"How much does it cost?\" in Kaqchikel?",
+  "must": [
+   "janipe'|jampe'"
+  ],
+  "must_not": []
+ },
+ {
+  "id": "where-wi",
+  "prompt": "Translate: \"Where did you go yesterday?\"",
+  "must": [
+   "akuchi' xab'e wi"
+  ],
+  "must_not": [
+   "xatb'e"
+  ]
+ },
+ {
+  "id": "rin-standard",
+  "prompt": "Is the standard Kaqchikel word for \"I\" rin or yin? One sentence.",
+  "must": [
+   "\\br[iï]n\\b"
+  ],
+  "must_not": [
+   "yin is (the )?standard"
+  ]
+ },
+ {
+  "id": "dialect-unknown-town",
+  "prompt": "How do people in Sumpango, Sacatepéquez, say \"here\" in Kaqchikel?",
+  "must": [
+   "no (data|source)|none of the sources|can't confirm|cannot confirm|(isn't|not|aren't) (covered|documented|attested|in the sources)|don't have|do not have|no tengo|uncertain|\\[\\?\\]"
+  ],
+  "must_not": []
+ },
+ {
+  "id": "es-tarde",
+  "prompt": "¿Cómo se dice \"buenas tardes\" y \"gracias\" en kaqchikel?",
+  "must": [
+   "xqa q'ij",
+   "matyöx|maltyox|matyox"
+  ],
+  "must_not": [
+   "xq'ij"
+  ]
+ },
+ {
+  "id": "es-comer",
+  "prompt": "Conjuga -wa' \"comer\" en completivo (pasado), todas las personas. Solo las formas.",
+  "must": [
+   "xiwa'",
+   "xawa'",
+   "xwa'",
+   "xojwa'",
+   "xixwa'",
+   "xewa'"
+  ],
+  "must_not": [
+   "xinwa'"
+  ]
+ },
+ {
+  "id": "es-casa",
+  "prompt": "¿Cómo se dice \"mi casa es grande\" en kaqchikel?",
+  "must": [
+   "wochoch"
+  ],
+  "must_not": [
+   "nuchoch"
+  ]
+ },
+ {
+  "id": "gloss-xkib'e",
+  "prompt": "Gloss xkib'e morpheme by morpheme. Is it well formed?",
+  "must": [
+   "xk",
+   "(will|future|potential)"
+  ],
+  "must_not": [
+   "ill-formed|not well[- ]formed"
+  ]
+ },
+ {
+  "id": "no-copula",
+  "prompt": "Correct if wrong: \"Rin k'o tijonel.\"",
+  "must": [
+   "in tijonel"
+  ],
+  "must_not": []
+ },
+ {
+  "id": "lax-vowel-big",
+  "prompt": "Translate: \"The house is very big.\"",
+  "must": [
+   "nimaläj|nim"
+  ],
+  "must_not": [
+   "nimalaj"
+  ]
+ }
+]
