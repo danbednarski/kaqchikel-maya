@@ -8,7 +8,7 @@
     {
       "name": "kaqchikel-language",
       "source": "./",
-      "description": "Read, write, translate and gloss Kaqchikel Maya (ISO cak)."
+      "description": "Read, write, translate and gloss Kaqchikel Maya (ISO cak), in English or Spanish."
     }
   ]
 }

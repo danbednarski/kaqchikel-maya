@@ -1,0 +1,23 @@
+name: Correction from a speaker / Corrección
+description: A Kaqchikel form the skill gets wrong / Una forma que el skill escribe mal
+labels: [correction]
+body:
+  - type: input
+    id: wrong
+    attributes:
+      label: What the skill wrote / Lo que escribió
+    validations: {required: true}
+  - type: input
+    id: right
+    attributes:
+      label: What it should be / Lo correcto
+    validations: {required: true}
+  - type: input
+    id: town
+    attributes:
+      label: Your town or region / Su pueblo o región
+      description: Forms differ by town, so this matters. / Las formas cambian de pueblo en pueblo.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else / Algo más
